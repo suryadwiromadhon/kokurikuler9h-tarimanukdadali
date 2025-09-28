@@ -150,9 +150,9 @@ const Homepage = () => {
           <div className="grid grid-cols-2 gap-2 text-sm">
             <div className="bg-primary/5 p-2 rounded-lg">Informatika</div>
             <div className="bg-secondary/5 p-2 rounded-lg">PKN</div>
-            <div className="bg-accent/5 p-2 rounded-lg">Bahasa Indonesia</div>
             <div className="bg-primary/10 p-2 rounded-lg">Seni Budaya</div>
             <div className="bg-secondary/10 p-2 rounded-lg">PJOK</div>
+            <div className="bg-accent/5 p-2 rounded-lg">Bahasa Indonesia</div>
             <div className="bg-accent/10 p-2 rounded-lg">IPS</div>
             <div className="bg-primary/15 p-2 rounded-lg">Bahasa Inggris</div>
             <div className="bg-secondary/15 p-2 rounded-lg">PAI</div>

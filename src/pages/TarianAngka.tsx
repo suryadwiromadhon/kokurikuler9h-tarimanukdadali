@@ -355,6 +355,19 @@ const TarianAngka = () => {
           </div>
         ))}
       </div>
+      <div className="glass-content mt-4">
+        <h3 className="text-xl font-bold mb-4 text-primary text-center"> Video Penjelasan</h3>
+        <div className="aspect-video rounded-xl overflow-hidden border-2 border-primary/20 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5">
+          <iframe
+        src="https://www.youtube.com/embed/75a6LunPYE4?si=RwLBF2bzFLExRjzu"
+        title="Video Matematika"
+        className="w-full h-full"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        style={{ border: 'none' }}
+          />
+        </div>
+      </div>
 
       {/* Learning Summary */}
       <div className="glass-content">

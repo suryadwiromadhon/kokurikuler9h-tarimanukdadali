@@ -14,9 +14,9 @@ const Footer = () => {
           <ul className="text-sm text-muted-foreground space-y-1">
             <li>Informatika</li>
             <li>PKN</li>
-            <li>Bahasa Indonesia</li>
             <li>Seni Budaya</li>
             <li>PJOK</li>
+            <li>Bahasa Indonesia</li>
             <li>IPS</li>
             <li>Bahasa Inggris</li>
             <li>PAI</li>

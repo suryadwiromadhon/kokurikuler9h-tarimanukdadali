@@ -135,7 +135,6 @@ const ScienceInArt = () => {
         </div>
       </div>
 
-      {/* Photo Gallery: Gambar kaki1.jpeg sampai kaki6.jpeg */}
       <div className="grid md:grid-cols-3 gap-6 mb-12">
         {[1,2,3,4,5,6].map((num) => (
           <div key={num} className="glass-content">
@@ -155,6 +154,27 @@ const ScienceInArt = () => {
               </span>
             </div>
             <h3 className="text-sm font-semibold text-primary text-center mt-2">Foto Kaki {num}</h3>
+          </div>
+        ))}
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-6 mb-12">
+        {[1,2,3].map((num) => (
+          <div key={num} className="glass-content">
+            <div className="aspect-[4/3] bg-gradient-to-br from-primary/5 to-accent/5 rounded-xl border-2 border-dashed border-primary/20 flex items-center justify-center overflow-hidden relative">
+              <img
+                src={`/ipa${num}.jpeg`}
+                className="w-full h-full object-cover rounded-xl cursor-pointer transition duration-300 hover:blur-sm"
+                onClick={() => window.open(`/ipa${num}.jpeg`, '_blank')}
+                style={{ display: 'block' }}
+              />
+              <span
+                className="absolute inset-0 flex items-center justify-center text-center text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-xl backdrop-blur-sm cursor-pointer"
+                onClick={() => window.open(`/ipa${num}.jpeg`, '_blank')}
+              >
+                <b>Klik untuk melihat gambar.</b>
+              </span>
+            </div>
           </div>
         ))}
       </div>

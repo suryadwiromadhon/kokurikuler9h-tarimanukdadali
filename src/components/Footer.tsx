@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="glass-nav mt-20 mx-4 mb-4 px-6 py-6">
       <div className="grid md:grid-cols-3 gap-6 text-center md:text-left">
         <div>
-          <h3 className="font-semibold text-primary mb-2">Kokurikuler 9H - 1</h3>
+          <h3 className="font-semibold text-primary mb-2">Kokurikuler IX-H Kelompok 1</h3>
           <p className="text-sm text-muted-foreground">
             Mendokumentasikan keragaman budaya Indonesia melalui seni, bahasa, dan sains.
           </p>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         
         <div>
-          <h4 className="font-medium mb-2">Kelas 9H Kelompok 1</h4>
+          <h4 className="font-medium mb-2">Kelas IX-H Kelompok 1</h4>
           <p className="text-sm text-muted-foreground">
             Kolaborasi lintas mata pelajaran untuk melestarikan dan memahami budaya Indonesia.
           </p>
@@ -36,7 +36,7 @@ const Footer = () => {
       
       <div className="border-t border-glass-border mt-6 pt-4 text-center">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Kokurikuler 9H - 1. Dibuat dengan ❤️ untuk Indonesia. by{' '}
+          © {new Date().getFullYear()} Kokurikuler IX-H Kelompok 1. Dibuat dengan ❤️ untuk Indonesia. by{' '}
           <a 
             href="https://instagram.com/semestalabs.id" 
             target="_blank" 

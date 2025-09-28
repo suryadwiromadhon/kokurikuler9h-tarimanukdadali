@@ -333,21 +333,21 @@ const TarianAngka = () => {
         </div>
       </div>
 
-      {/* Photo Gallery: ipa1.jpeg sampai ipa3.jpeg dari public folder */}
+      {/* Photo Gallery: matematika1.jpeg sampai matematika3.jpeg dari public folder */}
       <div className="grid md:grid-cols-3 gap-6 mb-12">
         {[1, 2, 3].map((num) => (
           <div key={num} className="glass-content">
             <div className="aspect-[4/3] bg-gradient-to-br from-primary/5 to-accent/5 rounded-xl border-2 border-dashed border-primary/20 flex items-center justify-center overflow-hidden relative mb-4">
               <img
-                src={`/ipa${num}.jpeg`}
-                alt={`Foto IPA ${num}`}
+                src={`/matematika${num}.jpeg`}
+                alt={`Foto matematika ${num}`}
                 className="w-full h-full object-cover rounded-xl cursor-pointer transition duration-300 hover:blur-sm"
-                onClick={() => window.open(`/ipa${num}.jpeg`, '_blank')}
+                onClick={() => window.open(`/matematika${num}.jpeg`, '_blank')}
                 style={{ display: 'block' }}
               />
               <span
                 className="absolute inset-0 flex items-center justify-center text-center text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-xl backdrop-blur-sm cursor-pointer"
-                onClick={() => window.open(`/ipa${num}.jpeg`, '_blank')}
+                onClick={() => window.open(`/matematika${num}.jpeg`, '_blank')}
               >
                 <b>Klik untuk melihat gambar.</b>
               </span>

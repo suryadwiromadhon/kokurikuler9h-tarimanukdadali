@@ -3,7 +3,7 @@ const TimKreator = () => {
     {
       name: 'Surya Dwi Romadhon',
       role: 'Koordinator Projek, Dalil Agama, Prolog, Design Canva, Develop Website',
-      subject: 'PKN, Agama, Informatika'
+      subject: 'PKN, Agama, Informatika, IPS'
     },
     {
       name: 'Rakaan Ahya Fawaz',
@@ -13,7 +13,7 @@ const TimKreator = () => {
     {
       name: 'Willy Raisa Andani Putra',
       role: 'Pemimpin Praktek Tari, Translate Sunda, Kaligrafi Dalil, Hitung IPA & Matematika',
-      subject: 'Seni Budaya, Bahasa Sunda, IPA, Matematika'
+      subject: 'Seni Budaya, Bahasa Sunda, IPA, Matematika, Agama'
     },
     {
       name: 'Muhammad Arga Al-Fitrah',

@@ -23,15 +23,21 @@ const LemburKuring = () => {
             <div className="bg-primary/5 p-6 rounded-xl mb-6">
               <h3 className="text-lg font-semibold mb-4 text-primary">Katerangan Lengkep</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong className="text-secondary">Tari Manuk Dadali téh asalna ti Jawa Barat</strong>. 
-                Gerakanna anggun jeung pinuh ku harkat, ngagambarkeun kareueus jeung kabébasan 
-                rahayat Sunda. Tarian ieu térinspirasi ku manuk garuda nu jadi simbol nagara.
+                <strong className="text-secondary">Manuk Dadali nyaéta lagu rahayat Jawa Barat anu kasohor pisan.</strong> 
+                Lagu ieu ngagambarkeun kaéndahan jeung kareueus manuk Garuda, lambang nasional Indonésia. Dina lagu éta, 
+                Garuda digambarkeun salaku manuk gagah, gaduh jangjang kuat, sarta ngapung luhur ka langit.
               </p>
               
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Manuk Garuda di Manuk Dadali lain ngan saukur sato, tapi ogé mangrupa <em>lambang sumanget, kawani, jeung kabébasan.</em> 
+                Lagu ieu sering dinyanyikeun kalayan wirahma anu riang sareng enerjik, ngajantenkeun saha waé anu ngadanguna ngarasa 
+                reueus janten urang Sunda sareng Indonésia.
+              </p>
+
               <p className="text-muted-foreground leading-relaxed">
-                Filosofi Manuk Dadali nyaéta <em>kabébasan, kareueus, jeung semangat nasionalisme</em>. 
-                Unggal gerakan sayap ngagambarkeun tekad nu luhur jeung cinta ka tanah air 
-                anu teu bisa dipisahkeun.
+                Saterusna, Manuk Dadali mindeng diajarkeun di sakola, ditembangkeun dina pagelaran seni, sarta dipigawé dina upacara adat. 
+                Kalayan lirikna anu basajan tapi ngandung harti, ieu tembang geus nyunda dina sanubari masarakat sarta mangrupa lambang 
+                jati diri budaya Jawa Barat.
               </p>
             </div>
 

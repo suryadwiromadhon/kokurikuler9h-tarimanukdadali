@@ -30,31 +30,23 @@ const EnglishCorner = () => {
             
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="leading-relaxed mb-6">
-                <strong className="text-primary">Manuk Dadali Dance</strong> is a traditional performance art from West Java, 
-                Indonesia, that represents the majestic spirit and cultural pride of the Indonesian people. 
-                This graceful dance form is inspired by the movements of the Garuda bird, symbolizing 
-                freedom, dignity, and national pride.
+                <strong className="text-primary">Manuk Dadali</strong> is a super famous folk song from West Java. 
+                The song describes the beauty and the pride people have for the garuda bird, which is the national 
+                symbol of Indonesia. In the song, the garuda is pictured as a powerful and majestic bird, with strong 
+                wings, flying high up in the sky.
               </p>
               
               <p className="leading-relaxed mb-6">
-                The dance is characterized by its <em>elegant wing-like movements</em> that beautifully mimic 
-                the soaring flight of a bird. Each gesture tells a story of freedom and aspiration, conveying 
-                the noble spirit of Indonesia. The movements are gracefully flowing yet powerful, requiring 
-                exceptional poise and artistic expression from the performers.
+                In <strong className="text-primary">Manuk Dadali,</strong> the garuda isn't just a regular bird; it's 
+                also a symbol of spirit, bravery, and freedom. People often sing this song with a cheerful and energetic tune, 
+                so it makes anyone who listens to it feel proud to be Sundanese and also proud to be Indonesian.
               </p>
               
               <p className="leading-relaxed mb-6">
-                What makes Manuk Dadali truly special is how it reflects the <strong className="text-secondary">pride, 
-                dignity, and patriotic spirit</strong> of the Indonesian people. The dance serves as a symbol 
-                of national identity, celebrating the country's independence and cultural heritage. 
-                It embodies the philosophy of soaring high with dignity and pride.
-              </p>
-              
-              <p className="leading-relaxed">
-                The accompanying music features traditional Sundanese instruments that create an uplifting 
-                and inspiring atmosphere. The costumes worn by dancers typically include vibrant colors 
-                representing the Indonesian flag, with wing-like accessories and flowing fabrics that 
-                enhance the bird-like movements, creating a magnificent visual representation of freedom.
+                Besides that, <strong className="text-primary">Manuk Dadali</strong> is also often taught in schools, 
+                sung at cultural performances, and played during traditional ceremonies. Even though the lyrics are 
+                <strong className="text-secondary"> simple, they're full of meaning.</strong> That's why this song has really 
+                stuck in people's hearts as one of the cultural identities of West Java.
               </p>
             </div>
           </div>

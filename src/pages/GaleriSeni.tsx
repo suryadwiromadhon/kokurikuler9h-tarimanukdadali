@@ -49,14 +49,20 @@ const GaleriSeni = () => {
           <div className="glass-content">
             <h2 className="text-2xl font-bold mb-4 text-primary">Deskripsi Detail</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Tari Manuk Dadali ditandai oleh gerakan yang meniru kepakan sayap burung yang elegan 
-              dan terbang tinggi. Setiap gerakan memiliki makna tersendiri, melambangkan kebebasan, 
-              keanggunan, dan semangat yang menjulang tinggi.
+              Manuk Dadali adalah lagu daerah Jawa Barat yang sangat terkenal. Lagu ini menggambarkan
+              keindahan dan kebanggaan terhadap burung garuda, lambang negara Indonesia. Dalam lagu tersebut,
+              burung garuda dilukiskan sebagai burung yang gagah perkasa, memiliki sayap yang kuat,
+              serta terbang tinggi di angkasa
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Burung garuda dalam Manuk Dadali bukan hanya sekadar hewan, tetapi juga simbol semangat,
+              keberanian, dan kebebasan. Lagu ini sering dinyanyikan dengan irama yang riang dan penuh semangat,
+              sehingga membuat siapa saja yang mendengarnya merasa bangga menjadi orang Sunda dan juga bangsa Indonesia.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Kostum penari menggunakan busana berwarna cerah yang melambangkan kemegahan burung 
-              garuda, dengan aksesoris yang menggambarkan sayap dan ekor burung. Gerakan tangan 
-              yang lembut meniru kepakan sayap yang anggun.
+              Selain itu, Manuk Dadali juga sering diajarkan di sekolah-sekolah, dinyanyikan saat pertunjukan seni,
+              dan dimainkan dalam upacara adat. Dengan lirik yang sederhana namun penuh makna, lagu ini berhasil
+              melekat di hati masyarakat sebagai salah satu identitas budaya Jawa Barat.
             </p>
           </div>
 

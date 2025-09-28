@@ -60,32 +60,37 @@ const TimKreator = () => {
       {/* Team Photos Grid */}
       <div className="glass-content">
         <div className="flex flex-col items-center">
-          {/* Baris atas: 4 anggota */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-        {teamMembers.slice(0, 4).map((member, index) => (
-          <div key={index} className="glass-card p-6 text-center hover:scale-105 transition-all duration-300 flex flex-col items-center">
-            <div className="relative w-24 h-24 mb-4">
-          <img
-            src={`/profile${index + 1}.jpg`}
-            alt={`Profile ${member.name}`}
-            className="w-24 h-24 object-cover rounded-full cursor-pointer transition duration-300 hover:blur-sm"
-            onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
-          />
-          <span
-            className="absolute inset-0 flex items-center justify-center text-center text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-full backdrop-blur-sm cursor-pointer"
-            onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
-          >
-            <b>Klik untuk melihat gambar.</b>
-          </span>
+            {/* Baris atas: 4 anggota */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {teamMembers.slice(0, 4).map((member, index) => (
+              <div
+              key={index}
+              className="glass-card text-center hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center aspect-square min-h-[180px] sm:min-h-[200px] md:min-h-[220px] max-h-[260px] w-full"
+              >
+              <div className="relative w-20 h-20 sm:w-24 sm:h-24 mb-3">
+              <img
+              src={`/profile${index + 1}.jpg`}
+              alt={`Profile ${member.name}`}
+              className="w-full h-full object-cover rounded-full cursor-pointer transition duration-300 hover:blur-sm"
+              onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
+              />
+              <span
+              className="absolute inset-0 flex items-center justify-center text-center text-xs sm:text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-full backdrop-blur-sm cursor-pointer"
+              onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
+              >
+              <b>Klik untuk melihat gambar.</b>
+              </span>
+              </div>
+              <div className="px-3 sm:px-4 w-full">
+              <h3 className="font-semibold text-base sm:text-lg mb-1 text-primary">{member.name}</h3>
+              <p className="text-xs sm:text-sm text-secondary font-medium mb-1">{member.role}</p>
+              <p className="text-xs text-muted-foreground bg-accent/10 px-2 py-1 rounded-full">
+                {member.subject}
+              </p>
+              </div>
+              </div>
+            ))}
             </div>
-            <h3 className="font-semibold text-lg mb-2 text-primary">{member.name}</h3>
-            <p className="text-sm text-secondary font-medium mb-1">{member.role}</p>
-            <p className="text-xs text-muted-foreground bg-accent/10 px-2 py-1 rounded-full">
-          {member.subject}
-            </p>
-          </div>
-        ))}
-          </div>
           {/* Baris bawah: 2 anggota, rata tengah */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {teamMembers.slice(4, 6).map((member, index) => (

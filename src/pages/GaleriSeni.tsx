@@ -49,7 +49,7 @@ const GaleriSeni = () => {
           <div className="glass-content">
             <h2 className="text-2xl font-bold mb-4 text-primary">Deskripsi Detail</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Manuk Dadali adalah lagu daerah Jawa Barat yang sangat terkenal. Lagu ini menggambarkan
+              <strong className="text-secondary">Manuk Dadali</strong> adalah lagu daerah Jawa Barat yang sangat terkenal. Lagu ini menggambarkan
               keindahan dan kebanggaan terhadap burung garuda, lambang negara Indonesia. Dalam lagu tersebut,
               burung garuda dilukiskan sebagai burung yang gagah perkasa, memiliki sayap yang kuat,
               serta terbang tinggi di angkasa

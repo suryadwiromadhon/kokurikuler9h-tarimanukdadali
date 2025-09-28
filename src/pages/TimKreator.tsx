@@ -1,12 +1,35 @@
 const TimKreator = () => {
   const teamMembers = [
-    { name: 'Surya', role: 'Kontributor Utama', subject: 'Seni Budaya' },
-    { name: 'Rakaan', role: 'Editor Konten', subject: 'Bahasa Indonesia' },
-    { name: 'Willy', role: 'Peneliti Budaya', subject: 'Sejarah' },
-    { name: 'Arga', role: 'Desainer Visual', subject: 'TIK' },
-    { name: 'Aflin', role: 'Ahli Fisika', subject: 'IPA' },
-    { name: 'Daffa', role: 'Penerjemah', subject: 'Bahasa Inggris' },
-    { name: 'M. Alfin', role: 'Konsultan Agama', subject: 'PAI' }
+    {
+      name: 'Surya Dwi Romadhon',
+      role: 'Koordinator Projek, Dalil Agama, Prolog, Design Canva, Develop Website',
+      subject: 'PKN, Agama, Informatika'
+    },
+    {
+      name: 'Rakaan Ahya Fawaz',
+      role: 'Teks Deskripsi Bahasa Indonesia, Design Canva',
+      subject: 'Bahasa Indonesia, IPS'
+    },
+    {
+      name: 'Willy Raisa Andani Putra',
+      role: 'Pemimpin Praktek Tari, Translate Sunda, Kaligrafi Dalil, Hitung IPA & Matematika',
+      subject: 'Seni Budaya, Bahasa Sunda, IPA, Matematika'
+    },
+    {
+      name: 'Muhammad Arga Al-Fitrah',
+      role: 'Design Canva Utama',
+      subject: 'IPS'
+    },
+    {
+      name: 'Muhammad Alfin',
+      role: 'Infografis',
+      subject: 'IPS'
+    },
+    {
+      name: 'Daffa Rai Shaquille Putra',
+      role: 'Infografis, Translate Inggris',
+      subject: 'IPS, Bahasa Inggris'
+    }
   ];
 
   return (
@@ -21,27 +44,74 @@ const TimKreator = () => {
         </p>
       </div>
 
+      {/* Banner Tim */}
+      <div className="glass-content text-center mb-8">
+        <h2 className="text-3xl font-bold text-primary mb-4">Anggota Tim Proyek</h2>
+        <div className="w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-xl mb-4">
+          <img
+        src="/tim.jpg"
+        alt="Banner Tim Kreator"
+        className="w-full h-full object-cover"
+        style={{ objectPosition: 'center 10px' }} // Geser foto ke bawah
+          />
+        </div>
+      </div>
+
       {/* Team Photos Grid */}
       <div className="glass-content">
-        <h2 className="text-3xl font-bold text-center mb-8 text-primary">
-          Anggota Tim Proyek
-        </h2>
-        
-        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="glass-card p-6 text-center hover:scale-105 transition-all duration-300">
-              <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-primary">
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2 text-primary">{member.name}</h3>
-              <p className="text-sm text-secondary font-medium mb-1">{member.role}</p>
-              <p className="text-xs text-muted-foreground bg-accent/10 px-2 py-1 rounded-full">
-                {member.subject}
-              </p>
+        <div className="flex flex-col items-center">
+          {/* Baris atas: 4 anggota */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+        {teamMembers.slice(0, 4).map((member, index) => (
+          <div key={index} className="glass-card p-6 text-center hover:scale-105 transition-all duration-300 flex flex-col items-center">
+            <div className="relative w-24 h-24 mb-4">
+          <img
+            src={`/profile${index + 1}.jpg`}
+            alt={`Profile ${member.name}`}
+            className="w-24 h-24 object-cover rounded-full cursor-pointer transition duration-300 hover:blur-sm"
+            onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
+          />
+          <span
+            className="absolute inset-0 flex items-center justify-center text-center text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-full backdrop-blur-sm cursor-pointer"
+            onClick={() => window.open(`/profile${index + 1}.jpg`, '_blank')}
+          >
+            <b>Klik untuk melihat gambar.</b>
+          </span>
             </div>
-          ))}
+            <h3 className="font-semibold text-lg mb-2 text-primary">{member.name}</h3>
+            <p className="text-sm text-secondary font-medium mb-1">{member.role}</p>
+            <p className="text-xs text-muted-foreground bg-accent/10 px-2 py-1 rounded-full">
+          {member.subject}
+            </p>
+          </div>
+        ))}
+          </div>
+          {/* Baris bawah: 2 anggota, rata tengah */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {teamMembers.slice(4, 6).map((member, index) => (
+          <div key={index + 4} className="glass-card p-6 text-center hover:scale-105 transition-all duration-300 flex flex-col items-center">
+            <div className="relative w-24 h-24 mb-4">
+          <img
+            src={`/profile${index + 5}.jpg`}
+            alt={`Profile ${member.name}`}
+            className="w-24 h-24 object-cover rounded-full cursor-pointer transition duration-300 hover:blur-sm"
+            onClick={() => window.open(`/profile${index + 5}.jpg`, '_blank')}
+          />
+          <span
+            className="absolute inset-0 flex items-center justify-center text-center text-sm text-primary opacity-0 hover:opacity-100 transition-opacity bg-white/20 rounded-full backdrop-blur-sm cursor-pointer"
+            onClick={() => window.open(`/profile${index + 5}.jpg`, '_blank')}
+          >
+            <b>Klik untuk melihat gambar.</b>
+          </span>
+            </div>
+            <h3 className="font-semibold text-lg mb-2 text-primary">{member.name}</h3>
+            <p className="text-sm text-secondary font-medium mb-1">{member.role}</p>
+            <p className="text-xs text-muted-foreground bg-accent/10 px-2 py-1 rounded-full">
+          {member.subject}
+            </p>
+          </div>
+        ))}
+          </div>
         </div>
       </div>
 

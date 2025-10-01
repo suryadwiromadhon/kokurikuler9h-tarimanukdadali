@@ -86,7 +86,7 @@ const LemburKuring = () => {
               <div className="bg-primary/5 p-4 rounded-xl">
                 <h4 className="font-semibold text-primary mb-2">🤝 Gotong Royong</h4>
                 <p className="text-sm text-muted-foreground">
-                  Tari Jaipong ngamumulé tradisi gotong royong jeung silih tulungan 
+                  Tari Manuk Dadali ngamumulé tradisi gotong royong jeung silih tulungan 
                   diantara masarakat Sunda.
                 </p>
               </div>
@@ -201,7 +201,7 @@ const LemburKuring = () => {
           <div className="bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 p-6 rounded-xl">
             <p className="text-muted-foreground leading-relaxed mb-4">
               Diajar basa Sunda téh penting pikeun ngalestarikan budaya Jawa Barat. 
-              Ngaliwatan tari Jaipong, urang bisa diajar loba hal:
+              Ngaliwatan tari Manuk Dadali, urang bisa diajar loba hal:
             </p>
             
             <ul className="space-y-2 text-sm text-muted-foreground">

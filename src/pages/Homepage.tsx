@@ -76,8 +76,14 @@ const Homepage = () => {
         </h2>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed mb-8">
-          Mari kita rayakan keragaman masyarakat Indonesia melalui seni, budaya, sains, agama, dan bahasa. 
-          Proyek kolaboratif lintas mata pelajaran ini menghadirkan kekayaan tradisi dalam perspektif modern.
+          Indonesia adalah negara yang dikenal dengan keragamannya, baik dari segi suku, bahasa, adat istiadat, hingga kesenian. 
+          Keberagaman tersebut menjadi kekayaan yang tak ternilai dan menjadi identitas bangsa di mata dunia. 
+        </p>
+
+        <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed mb-8">
+          Salah satu bentuk kekayaan budaya Indonesia dapat dilihat dari kesenian tradisional, khususnya tarian. 
+          Seperti tari "Manuk Dadali" dari Jawa Barat. Tarian Manuk Dadali terinspirasi dari lagu Sunda berjudul sama dan 
+          menggambarkan burung garuda yang gagah perkasa. 
         </p>
         
         <div className="glass-card p-6 max-w-3xl mx-auto">

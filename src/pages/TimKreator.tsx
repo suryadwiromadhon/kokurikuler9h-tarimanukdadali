@@ -130,7 +130,7 @@ const TimKreator = () => {
               <h3 className="font-semibold text-primary mb-2">Fase 1: Perencanaan</h3>
               <p className="text-muted-foreground text-sm mb-2">
                 Tim melakukan brainstorming untuk menentukan tema dan konsep proyek. 
-                Tari Jaipong dipilih sebagai fokus utama karena kekayaan nilai budayanya.
+                Tari Manuk Dadali dipilih sebagai fokus utama karena kekayaan nilai budayanya.
               </p>
               <div className="text-xs text-secondary">Durasi: 1 minggu</div>
             </div>
@@ -139,7 +139,7 @@ const TimKreator = () => {
               <h3 className="font-semibold text-secondary mb-2">Fase 2: Penelitian</h3>
               <p className="text-muted-foreground text-sm mb-2">
                 Mengumpulkan informasi dari berbagai sumber tentang sejarah, filosofi, 
-                dan aspek teknis Tari Jaipong dari perspektif multi-disiplin.
+                dan aspek teknis Tari Manuk Dadali dari perspektif multi-disiplin.
               </p>
               <div className="text-xs text-secondary">Durasi: 2 minggu</div>
             </div>
